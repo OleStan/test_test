@@ -1,0 +1,29 @@
+# Logfile created on 2021-02-08 22:23:20 +0200 by logger.rb/v1.4.2
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-08 22:23:20 +0200 cap production config:init
+  INFO ---------------------------------------------------------------------------
+ DEBUG [c636ed45] Running [ -d ~/.rvm ] as deployer@138.68.81.123
+ DEBUG [c636ed45] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2021-02-08 22:25:24 +0200 cap production config:init
+  INFO ---------------------------------------------------------------------------
+ DEBUG [21217489] Running [ -d ~/.rvm ] as deployer@138.68.81.123
+ DEBUG [21217489] Command: [ -d ~/.rvm ]
+ DEBUG [21217489] Finished in 0.999 seconds with exit status 0 (successful).
+ DEBUG [a0703214] Running ~/.rvm/bin/rvm version as deployer@138.68.81.123
+ DEBUG [a0703214] Command: ~/.rvm/bin/rvm version
+ DEBUG [a0703214] 	rvm 1.29.12 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [a0703214] 	
+ DEBUG [a0703214] Finished in 0.306 seconds with exit status 0 (successful).
+ DEBUG [335fd5ff] Running ~/.rvm/bin/rvm current as deployer@138.68.81.123
+ DEBUG [335fd5ff] Command: ~/.rvm/bin/rvm current
+ DEBUG [335fd5ff] 	ruby-2.7.2
+ DEBUG [335fd5ff] 	
+ DEBUG [335fd5ff] Finished in 0.444 seconds with exit status 0 (successful).
+ DEBUG [ebf8dfc7] Running ~/.rvm/bin/rvm 2.7.2 do ruby --version as deployer@138.68.81.123
+ DEBUG [ebf8dfc7] Command: ~/.rvm/bin/rvm 2.7.2 do ruby --version
+ DEBUG [ebf8dfc7] 	ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x86_64-linux]
+ DEBUG [ebf8dfc7] 	
+ DEBUG [ebf8dfc7] Finished in 0.550 seconds with exit status 0 (successful).
+  INFO Copied: config/database.yml.example to ./config/database.production.yml
+  INFO Copied: config/secrets.yml.example to ./config/secrets.production.yml
